@@ -133,7 +133,7 @@ if option == 'Gerak Lurus Berubah Beraturan (GLBB)':
     st.write(f'Bilangan pertama adalah {waktukuadrat}')
     #hitung
     if st.button('hasil hitung'):
-        hasiljarak= kecepatanawalv0*waktujarak + ((setengahpercepatan*waktukuadrat)/2)
+        hasiljarak= kecepatanawalv0*waktujarak + ((setengahpercepatan*waktukuadrat**2)/2)
         st.write(f'hasil kecepatan akhir yang diperoleh adalah {hasiljarak}')
     else:
         st.write('silahkan pencet tombol hitung!')
