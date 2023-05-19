@@ -47,7 +47,7 @@ if option == 'Kecepatan':
     #hitung
     if st.button('hitung'):
         hasil= jarak/waktu
-        st.write(f'hasil kecepatan yang diperoleh adalah {hasil}')
+        st.write(f'hasil kecepatan yang diperoleh adalah {hasil} m/s')
     else:
         st.write('silahkan pencet tombol hitung!')
     
@@ -67,7 +67,7 @@ if option == 'Percepatan':
     #hitung
     if st.button('hitung'):
         hasilpercepatan= deltakecepatan/deltawaktu
-        st.write(f'hasil percepatan yang diperoleh adalah {hasilpercepatan}')
+        st.write(f'hasil percepatan yang diperoleh adalah {hasilpercepatan} ')
     else:
         st.write('silahkan pencet tombol hitung!')
 
@@ -87,7 +87,7 @@ if option == 'Gerak Lurus Beraturan (GLB)':
     #hitung
     if st.button('hitung'):
         hasilkecepatan= kecepatan*waktu
-        st.write(f'hasil jarak yang diperoleh adalah {hasilkecepatan}')
+        st.write(f'hasil jarak yang diperoleh adalah {hasilkecepatan} m')
     else:
         st.write('silahkan pencet tombol hitung!')
 
@@ -112,7 +112,7 @@ if option == 'Gerak Lurus Berubah Beraturan (GLBB)':
     #hitung
     if st.button('hitung'):
         hasilkecepatanawal= kecepatanawal+percepatangerak*waktutempuh
-        st.write(f'hasil kecepatan akhir yang diperoleh adalah {hasilkecepatanawal}')
+        st.write(f'hasil kecepatan akhir yang diperoleh adalah {hasilkecepatanawal} m/s')
     else:
         st.write('silahkan pencet tombol hitung!')
 
@@ -134,7 +134,7 @@ if option == 'Gerak Lurus Berubah Beraturan (GLBB)':
     #hitung
     if st.button('hasil hitung'):
         hasiljarak= kecepatanawalv0*waktujarak + ((setengahpercepatan*waktukuadrat**2)/2)
-        st.write(f'hasil kecepatan akhir yang diperoleh adalah {hasiljarak}')
+        st.write(f'hasil kecepatan akhir yang diperoleh adalah {hasiljarak} m')
     else:
         st.write('silahkan pencet tombol hitung!')
     
@@ -153,7 +153,7 @@ if option == 'Gerak Lurus Berubah Beraturan (GLBB)':
     #hitung
     if st.button('hitung '):
         hasilkecepatanawalkuadrat= ((kecepatanawalkuadrat)**2+(2*percepatanglbb*jaraktempuh))
-        st.write(f'hasil kecepatan akhir yang diperoleh adalah {hasilkecepatanawalkuadrat}')
+        st.write(f'hasil kecepatan akhir yang diperoleh adalah {hasilkecepatanawalkuadrat} m/s')
     else:
         st.write('silahkan pencet tombol hitung!')
 
